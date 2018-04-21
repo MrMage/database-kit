@@ -6,6 +6,7 @@ let package = Package(
     products: [
         .library(name: "DatabaseKit", targets: ["DatabaseKit"]),
         .library(name: "SQL", targets: ["SQL"]),
+        .library(name: "CacheKit", targets: ["CacheKit"]),
     ],
     dependencies: [
         // 🌎 Utility package containing tools for byte manipulation, Codable, OS APIs, and debugging.
